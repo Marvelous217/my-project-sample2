@@ -1,0 +1,480 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+  
+/* This is the header section */
+h1{
+
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 56px;
+}
+
+
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  display: fleX;
+  align-items: Center;
+  justify-content: space-between;
+  column-gap: 40px;
+  height: 130px;
+  
+}
+
+.navbar {
+  background-color: black;
+  color: #fff;
+  padding: 40px 0;
+  margin-top: -70px;
+  
+  
+}
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 70px;
+  font-size: 14px;
+  
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cart-icon img {
+  width: 24px;
+}
+
+
+.the-heading-title{
+    text-align: center;
+    
+    width: vw;
+    height: 50px;
+;
+    margin: auto;
+    padding-bottom: 60px;
+    
+    
+}
+
+
+/* this is the hero section */
+
+.hero-section{
+    padding: 80px;
+    display: flex;
+    
+    align-items: center;
+    gap: 120px
+}
+ .hero-content p {
+    color: #888;
+    padding: 10px;
+    
+}
+
+.hero-image img{
+    height: 500px;
+    width: 600px;
+}
+
+
+.btn {
+  background-color: #d87d4a;
+  color: white;
+  text-decoration: none;
+  padding: 15px 30px;
+  font-weight: bold;
+  border-radius: 5px;
+  
+}
+
+.see-products-btn{
+    margin-top: 50px;
+}
+
+.new-product-btn{
+    color: #d87d4a;
+    letter-spacing: 2px;
+}
+
+.hero4-image{
+  display: none;
+}
+
+
+/* this is the XX99 MARK 1 HEADOHONE SECTION */
+
+.heros2-section{ 
+     padding: 80px;
+    display: flex;
+    
+    align-items: center;
+    gap: 120px
+}
+
+
+ .xx99-mark-1-contents p {
+    color: #888;
+    padding: 10px;
+    
+}
+
+
+.hero2-image img{
+    height: 500px;
+    width: 600px;
+}
+
+
+
+
+
+/* THIS IS THE XX59 HEADPHONE SECTION */
+
+.hero3-section{
+    padding: 80px;
+    display: flex;
+    
+    align-items: center;
+    gap: 120px
+}
+ .hero3-content p {
+    color: #888;
+    padding: 10px;
+    
+}
+
+.hero3-image img{
+    height: 500px;
+    width: 600px;
+}
+
+
+.btn {
+  background-color: #d87d4a;
+  color: white;
+  text-decoration: none;
+  padding: 15px 30px;
+  font-weight: bold;
+  border-radius: 5px;
+  
+}
+
+.see-products-btn{
+    margin-top: 50px;
+}
+
+
+
+.new-product-btn{
+    color: #d87d4a;
+    letter-spacing: 2px;
+}
+
+
+/* THIS IS THE CATEGORIES SECTION */
+
+.categories {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 4rem 10%;
+  background-color: #fafafa;
+  flex-wrap: wrap;
+  padding-top: 150px;
+}
+
+.category-card {
+  background: #f1f1f1;
+  padding: 3rem 1rem 1.5rem;
+  text-align: center;
+  border-radius: 10px;
+  width: 200px;
+  position: relative;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s;
+}
+
+.category-card img {
+  width: 100px;
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.category-card h3 {
+  margin-top: 50px;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+
+.category-card a {
+  display: inline-block;
+  margin-top: 0.8rem;
+  text-decoration: none;
+  font-weight: bold;
+  color: #888;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  position: relative;
+}
+
+.category-card a::after {
+  content: '>';
+  margin-left: 5px;
+  color: #d87d4a;
+}
+
+
+
+
+
+
+
+/* this is the herolast-section */
+
+
+.promo-banner {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  background-color: #f1f1f1;
+  gap: 70px;
+}
+
+.promo-image {
+  flex: 1 1 400px;
+  max-width: 500px;
+  margin-right: 130px;
+}
+
+.promo-image img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.promo-content {
+  flex: 1 1 400px;
+  max-width: 500px;
+  margin-left: 120px;
+}
+
+
+
+.promo-content h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.promo-content h2 span {
+  color: #d87d4a;
+}
+
+.promo-content p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+
+
+/* This is the footer section */
+
+.footer-container{
+  background-color: #000;
+
+}
+.logo{
+  color: white;
+  padding: 20px;
+  
+}
+
+.footerheader{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-nav{
+display: flex;
+column-gap: 80px;
+align-items: center;
+margin-right: 65px;
+}
+
+
+.footer-description{
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 400px;
+  margin-left: 10px;
+}
+  
+.social-icons{
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 20px;
+  padding: 10px;
+  align-items: center;
+}
+
+
+.footer-nav a{
+ 
+  text-decoration: none;
+  color: white;
+  
+   
+}
+
+
+.footer-description{
+    color: #555 ;
+  }
+  .copyrights-footer{
+    color:  #555;
+margin-left: 20px;
+    padding-bottom: 20px;
+
+  }
+
+  .footer-description-copyrights{
+    margin-top: 30px;
+  }
+
+
+
+
+
+  /* responsive design */
+@media (max-width: 680px) {
+  html,
+  body{overflow-x: hidden;
+    
+    
+  
+  
+  }
+}
+
+
+  @media (max-width: 680px) {
+  .container {
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    gap: 20px;
+    padding-top: 50px;
+    
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .the-heading-title {
+    padding-bottom: 30px;
+    margin-left: 70px;
+  }
+
+  .hero-section,
+  .heros2-section,
+  .hero3-section {
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .hero-image img,
+  .hero2-image img,
+  .hero3-image img {
+    width: 100%;
+    height: auto;
+  }
+.hero2-image{
+  display: none;
+}
+  .see-products-btn {
+    margin-top: 30px;
+  }
+
+  .categories {
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 20px;
+    gap: 40px;
+  }
+
+  .category-card {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .promo-banner {
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 40px;
+    text-align: center;
+    padding-bottom: -900px;
+  }
+
+  .promo-image,
+  .promo-content {
+    margin: 0;
+    max-width: 100%;
+  }
+
+  .promo-content h2 {
+    font-size: 24px;
+  }
+
+  .promo-content p {
+    font-size: 14px;
+  }
+
+  .footerheader {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .footer-nav {
+    flex-direction: column;
+    gap: 15px;
+    margin: 0;
+  }
+
+  .footer-description {
+    flex-direction: column;
+    margin: 20px;
+    text-align: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .copyrights-footer {
+    text-align: center;
+    margin: 20px 0;
+  }
+}
