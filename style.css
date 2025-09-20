@@ -47,7 +47,7 @@ header .container {
 
 .navbar {
    /* background-color: #000;  */
-  background-image: url("/assets/home/desktop/image-hero.jpg"); 
+  background-image: url("./assets/home/desktop/image-hero.jpg"); 
   background-position: center;
   background-size: cover;
   height: 95vh;
