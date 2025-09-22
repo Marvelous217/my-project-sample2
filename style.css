@@ -592,6 +592,7 @@ margin-left: 20px;
     background-repeat: no-repeat;
      background-position-x: -600px; 
     background-image: url("./assets/home/desktop/image-hero.jpg"); 
+    max-width: 700px;
      
      
      
@@ -628,8 +629,7 @@ margin-left: 20px;
     align-items: center;
     text-align: center;
     padding: 60px 20px;
-    /* background-color: #141414; */
-    /* max-width: 600px; */
+  
     width: 100%;
     height: auto;
     
@@ -679,25 +679,7 @@ margin-left: 20px;
 
 
 
-  /* .hero-image {
-    width: 100%;
-    text-align: center;
-    
-    
-  } */
-
-  /* .hero-image img {
-    max-width: 80%;
-    height: auto;
-    margin-top: 20px;
-    position: static;
-    margin-right: 300px;
-    height: 700px;
-    width: 1000px;
-    position: relative;
-    top: -350px;
-    
-  } */
+  
 }
 
 
@@ -720,6 +702,7 @@ margin-left: 20px;
     padding-top: 50px;
     height: 900px;
     margin: auto;
+    max-width: 700px;
     
     
   }
@@ -746,6 +729,7 @@ margin-left: 20px;
  background-image:url(./assets/home/desktop/pattern-circles.svg);
  background-size: 800px; 
 background-position: 45%  -70%; 
+max-width: 700px;
  
  
  
